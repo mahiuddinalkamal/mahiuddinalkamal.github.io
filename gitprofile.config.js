@@ -2,112 +2,145 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'mahiuddinalkamal', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
-      projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+      projects: ['mahiuddinalkamal'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'mahiuddinalkamal',
+    twitter: '',
+    mastodon: '',
     facebook: '',
     instagram: '',
     youtube: '', // example: 'pewdiepie'
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    website: 'https://dev.mahiuddinalkamal.com',
+    phone: '+49-1789291398',
+    email: 'contact@mahiuddinalkamal.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1jlNQmLwhklelKkmQFW60ZFdeVX9d3RnA/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
+    'Java',
+    'Spring Boot',
+    'TypeScript',
+    'Python',
+    'C#',
     'MySQL',
     'PostgreSQL',
-    'Git',
+    'MongoDB',
+    'SAP S/4 HANA',
+    'Cloud Foundry',
     'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'Kubernetes',
+    'Terraform',
+    'Git',
+    'Jenkins',
+    'GitHub Actions',
+    'AWS', 
+    'Azure', 
+    'GCP', 
+    'SAP BTP',
+    'Jira',
+    'Confluence',
+    'Blackduck', 
+    'SonarCube', 
+    'Fortify',
   ],
   experiences: [
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+{
+      company: 'SAP SE, Germany',
+      position: 'Developer Associate at SAP cDCM',
+      from: 'April 2023',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://sap.com',
+    },
+     {
+      company: 'SAP SE, Germany',
+      position: 'Developer Associate at SAP Health',
+      from: 'February 2022',
+      to: 'March 2023',
+      companyLink: 'https://sap.com',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'T-Systems MMS GmbH, Germany',
+      position: 'Master Thesis Student',
+      from: 'October 2021',
+      to: 'January 2022',
+      companyLink: 'https://t-systems-mms.com',
+    },
+    {
+      company: 'T-Systems MMS GmbH, Germany',
+      position: 'Software Engineer (Part-time)',
+      from: 'February 2021',
+      to: 'September 2021',
+      companyLink: 'https://t-systems-mms.com',
+    },
+    {
+      company: 'Millennium Information Solution Limited, Bangladesh',
+      position: 'Assistant Software Engineer',
+      from: 'February 2019',
+      to: 'October 2017',
+      companyLink: 'https://mislbd.com',
+    },
+    ],
+  certifications: [
+    {
+      name: 'Cloud Native Developer (Java)',
+      body: 'Issued By SAP',
+      year: 'December 2022',
+      link: 'https://www.credly.com/badges/b6133b7d-3525-4689-b426-682b515ee46d/linked_in_profile'
+    },
+    {
+      name: 'Software Architecture : Domain Driven Design',
+      body: 'Issued By LikedIn',
+      year: 'April 2022',
+      link: 'https://www.linkedin.com/learning/certificates/eb5136b66b53190cdea0aef645d2eecee09bf24072b03d8bd9980607d6aec605'
     },
   ],
-  /* certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com'
-    },
-  ], */
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'TU DRESDEN, Germany',
+      degree: 'Masters in Distributed Systems Engineering',
+      from: 'Ocober 2019',
+      to: 'February 2022',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Chittagong University of Engineering & Technology, Bangladesh',
+      degree: 'B.Sc. in Computer Scinece & Engineering',
+      from: 'May 2012',
+      to: 'March 2017',
     },
   ],
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Project Name',
+      title: 'Easy Transport',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        'A fully automated ticketing system in respective to our locale transport (e.g.: Bus, Train, etc.) using RFID cards eliminating the need of a ticket checker. The cards can be recharged in the recharge points and an android app is used to manage the arduino module attached to the door of a vehicle. Passengers can travel from one place to another just by swiping the card near to the Arduino module and the fare will be automatically calculated & deducted in real-time',
     },
     {
-      title: 'Project Name',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+      title: 'StreetGoods (An Adaptive App)',
+      description: 'An adaptive app to provide a nice platform to the users of exchanging giveaway items. The app is smart and adaptive meaning it always listens for the contexts from the user and act accordingly to suit the user need.'
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many posts to display. Max is 10.
   },
   googleAnalytics: {
