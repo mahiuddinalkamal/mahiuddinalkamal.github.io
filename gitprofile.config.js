@@ -4,7 +4,7 @@ const config = {
   github: {
     username: 'mahiuddinalkamal', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
-    limit: 10, // How many projects to display.
+    limit: 14, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
       projects: ['mahiuddinalkamal'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
@@ -104,7 +104,7 @@ const config = {
       link: 'https://www.credly.com/badges/b6133b7d-3525-4689-b426-682b515ee46d/linked_in_profile'
     },
     {
-      name: 'Software Architecture : Domain Driven Design',
+      name: 'Software Architecture: Domain Driven Design',
       body: 'Issued By LikedIn',
       year: 'April 2022',
       link: 'https://www.linkedin.com/learning/certificates/eb5136b66b53190cdea0aef645d2eecee09bf24072b03d8bd9980607d6aec605'
@@ -119,7 +119,7 @@ const config = {
     },
     {
       institution: 'Chittagong University of Engineering & Technology, Bangladesh',
-      degree: 'B.Sc. in Computer Scinece & Engineering',
+      degree: 'B.Sc. in Computer Science & Engineering',
       from: 'May 2012',
       to: 'March 2017',
     },
@@ -152,11 +152,11 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'wireframe',
+    defaultTheme: 'bumblebee',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
@@ -212,11 +212,11 @@ const config = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+  // footer: `Made with <a 
+  //     class="text-primary" href="https://github.com/arifszn/gitprofile"
+  //     target="_blank"
+  //     rel="noreferrer"
+  //   >GitProfile</a> and ❤️`,
 };
 
 export default config;
