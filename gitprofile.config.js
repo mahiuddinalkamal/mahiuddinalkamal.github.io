@@ -30,7 +30,7 @@ const config = {
   },
   resume: {
     fileUrl:
-      'https://mahiuddinalkamal.com/Resume_Mahiuddin_Al_Kamal.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://mahiuddinalkamal.com/resume/Resume_Mahiuddin_Al_Kamal.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Java',
