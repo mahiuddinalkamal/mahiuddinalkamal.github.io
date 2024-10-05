@@ -134,11 +134,11 @@ const config = {
     {
       title: 'Easy Transport',
       description:
-        'A fully automated ticketing system respective to our locale transport (e.g.: Bus, Train, etc.) using RFID cards eliminating the need of a ticket checker. The cards can be recharged in the recharge points and an Android app is used to manage the Arduino module attached to the door of a vehicle. Passengers can travel from one place to another just by swiping the card near to the Arduino module and the fare will be automatically calculated & deducted in real-time',
+        'A fully automated ticketing system respective to our locale transport (e.g.: Bus, Train, etc.) using RFID cards eliminating the need for a ticket checker. The cards can be recharged in the recharge points and an Android app is used to manage the Arduino module attached to the door of a vehicle. Passengers can travel from one place to another just by swiping the card near to the Arduino module and the fare will be automatically calculated & deducted in real-time',
     },
     {
       title: 'StreetGoods (An Adaptive App)',
-      description: 'An adaptive app to provide a nice platform for users to exchange giveaway items. The app is smart and adaptive meaning it always listens for the contexts from the user and acts accordingly to suit the user's need.'
+      description: 'An adaptive app to provide a nice platform for users to exchange giveaway items. The app is smart and adaptive meaning it always listens for the contexts from the user and acts accordingly to suit the users need.'
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
