@@ -4,7 +4,7 @@ const config = {
   github: {
     username: 'mahiuddinalkamal', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
-    limit: 14, // How many projects to display.
+    limit: 16, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
       projects: ['mahiuddinalkamal'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
@@ -37,7 +37,6 @@ const config = {
     'Spring Boot',
     'TypeScript',
     'Python',
-    'C#',
     'MySQL',
     'PostgreSQL',
     'MongoDB',
@@ -53,18 +52,23 @@ const config = {
     'Azure', 
     'GCP', 
     'SAP BTP',
-    'Jira',
-    'Confluence',
     'Blackduck', 
     'SonarCube', 
     'Fortify',
   ],
   experiences: [
-{
+    {
+      company: 'SAP SE, Germany',
+      position: 'Developer Specialist at SAP cDCM',
+      from: 'January 2024',
+      to: 'Present',
+      companyLink: 'https://sap.com',
+    },
+    {
       company: 'SAP SE, Germany',
       position: 'Developer Associate at SAP cDCM',
       from: 'April 2023',
-      to: 'Present',
+      to: 'December 2023',
       companyLink: 'https://sap.com',
     },
      {
@@ -75,14 +79,14 @@ const config = {
       companyLink: 'https://sap.com',
     },
     {
-      company: 'T-Systems MMS GmbH, Germany',
+      company: 'Deutsche Telekom MMS GmbH, Germany',
       position: 'Master Thesis Student',
       from: 'October 2021',
       to: 'January 2022',
       companyLink: 'https://t-systems-mms.com',
     },
     {
-      company: 'T-Systems MMS GmbH, Germany',
+      company: 'Deutsche Telekom MMS GmbH, Germany',
       position: 'Software Engineer (Part-time)',
       from: 'February 2021',
       to: 'September 2021',
@@ -114,7 +118,7 @@ const config = {
     {
       institution: 'TU DRESDEN, Germany',
       degree: 'Masters in Distributed Systems Engineering',
-      from: 'Ocober 2019',
+      from: 'October 2019',
       to: 'February 2022',
     },
     {
@@ -130,11 +134,11 @@ const config = {
     {
       title: 'Easy Transport',
       description:
-        'A fully automated ticketing system in respective to our locale transport (e.g.: Bus, Train, etc.) using RFID cards eliminating the need of a ticket checker. The cards can be recharged in the recharge points and an android app is used to manage the arduino module attached to the door of a vehicle. Passengers can travel from one place to another just by swiping the card near to the Arduino module and the fare will be automatically calculated & deducted in real-time',
+        'A fully automated ticketing system respective to our locale transport (e.g.: Bus, Train, etc.) using RFID cards eliminating the need of a ticket checker. The cards can be recharged in the recharge points and an Android app is used to manage the Arduino module attached to the door of a vehicle. Passengers can travel from one place to another just by swiping the card near to the Arduino module and the fare will be automatically calculated & deducted in real-time',
     },
     {
       title: 'StreetGoods (An Adaptive App)',
-      description: 'An adaptive app to provide a nice platform to the users of exchanging giveaway items. The app is smart and adaptive meaning it always listens for the contexts from the user and act accordingly to suit the user need.'
+      description: 'An adaptive app to provide a nice platform for users to exchange giveaway items. The app is smart and adaptive meaning it always listens for the contexts from the user and acts accordingly to suit the user's need.'
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
